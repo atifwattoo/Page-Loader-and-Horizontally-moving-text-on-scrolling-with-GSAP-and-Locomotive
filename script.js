@@ -56,14 +56,14 @@ function timeloader(){
 var mytime = gsap.timeline()
 
 mytime.to(".loader h1", {
-    duration:1,
-    delay:0.5,
+    duration:2,
+    // delay:2,
     onStart:timeloader(),
 })
 
 mytime.to(".loader" ,{
     top:"-100vh",
-    delay:0.4,
+    // delay:5,
     duration:2
 })
 
