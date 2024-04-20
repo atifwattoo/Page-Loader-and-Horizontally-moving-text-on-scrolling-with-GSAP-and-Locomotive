@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Heading-Now_variable;
+    src: url(./Heading-Now-Variable.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: lightcyan;
+    position: fixed;
+    z-index: 1000;
+}
+
+.loader h1{
+    font-size: 12rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+    /* height: 100%; its does not work 100% because its parent body has no height , actually its work inside body but body has no height */
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.main2{
+    width: 100%;
+    height: 100vh;
+    background-color:lightcoral;
+}
+
+.main h1{
+    color: #fff;
+    font-family: Heading-Now_variable;
+    font-size: 30vw;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    font-weight: 999px;
+    white-space: nowrap;
+    font-stretch: 450%;
+}
